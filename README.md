@@ -1,4 +1,4 @@
-# TP: Aplicación Dockerizada con Python (Flask)
+# TP: Docker con Python (Flask)
 
 ## 🚀 Objetivo
 - Reforzar el manejo del control de versiones con Git y plataformas remotas (GitHub, GitLab o Bitbucket).
@@ -17,3 +17,9 @@
 2. Construir la imagen:
    ```bash
    docker build -t docker-py .
+3. Ejecutar el contenedor:
+   ```bash
+   docker run -d -p 5000:5000 docker-py
+4. Visitar en el navegador:
+   ```bash
+   http://localhost:5000
